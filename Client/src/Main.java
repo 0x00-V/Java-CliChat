@@ -27,7 +27,7 @@ public class Main{
             while(!message.equals("exit")){
                 try{
                     message = in.readLine();
-                    out.writeUTF(username + ": " + message);
+                    out.writeUTF(message);
                 } catch (IOException ioe){
                     System.out.println("Caught an Error: " + ioe);
                 }
